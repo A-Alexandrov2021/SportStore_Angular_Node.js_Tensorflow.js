@@ -14,6 +14,8 @@ npm install --save-dev connect-history-api-fallback@1.5.0
 
 npm install --save-dev https@1.0.0
 
+npm install --global yarn
+
 Building the Application for Production:
 
 ng build --prod
