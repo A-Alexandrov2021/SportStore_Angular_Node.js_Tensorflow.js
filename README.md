@@ -6,13 +6,15 @@ Testing the Application:
 
 Creating the Server:
 
-Installing Additional Packages
+Installing Additional Packages:
 
 npm install --save-dev express@4.16.3
+
 npm install --save-dev connect-history-api-fallback@1.5.0
+
 npm install --save-dev https@1.0.0
 
-Building the Application for Production
+Building the Application for Production:
 
 ng build --prod
 
@@ -21,6 +23,11 @@ development tools. The output from the build process is placed in the dist/Sport
 to the JavaScript files, there is an index.html file that has been copied from the SportsStore/src folder and
 modified to use the newly built files.
 
+Starting the Production HTTP Server:
+
+node server.js
+
+Once the server has started, open a new browser window and navigate to http://localhost:80 
 
 
 ## Development server
